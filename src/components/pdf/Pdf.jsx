@@ -1,3 +1,4 @@
+import { Button } from '@material-ui/core';
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf';
 // import samplePDF from './git-cheat-sheet-education.pdf';
@@ -11,6 +12,18 @@ const Pdf = () => {
     setCurrentPage(1);
   };
 
+  const onPageChange = (offset) => {
+    setCurrentPage(currentPage + offset);
+  };
+
+  const onPrevious = () => {
+    onPageChange(-1);
+  };
+
+  const onNext = () => {
+    onPageChange(1);
+  };
+
   return (
     <div>
       <Document
@@ -20,6 +33,12 @@ const Pdf = () => {
       >
         <Page pageNumber={currentPage} />
       </Document>
+      <Button onClick={() => onPrevious()} disabled={currentPage <= 1}>
+        Previous
+      </Button>
+      <Button onClick={() => onNext()} disabled={currentPage >= numPages}>
+        Next
+      </Button>
       Page {currentPage || '--'} of {numPages || '--'}
     </div>
   )
