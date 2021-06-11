@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-pdf-viewer/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/react-pdf-viewer/static/js/main.54f3c7f9.chunk.js",
+    "main.js.map": "/react-pdf-viewer/static/js/main.54f3c7f9.chunk.js.map",
+    "runtime-main.js": "/react-pdf-viewer/static/js/runtime-main.1cb1d29a.js",
+    "runtime-main.js.map": "/react-pdf-viewer/static/js/runtime-main.1cb1d29a.js.map",
+    "static/js/2.8006280a.chunk.js": "/react-pdf-viewer/static/js/2.8006280a.chunk.js",
+    "static/js/2.8006280a.chunk.js.map": "/react-pdf-viewer/static/js/2.8006280a.chunk.js.map",
+    "index.html": "/react-pdf-viewer/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/react-pdf-viewer/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.8006280a.chunk.js.LICENSE.txt": "/react-pdf-viewer/static/js/2.8006280a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cb1d29a.js",
+    "static/js/2.8006280a.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.54f3c7f9.chunk.js"
+  ]
+}
